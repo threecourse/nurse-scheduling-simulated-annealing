@@ -1,0 +1,54 @@
+
+.cell {
+    position: absolute;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    z-index: auto;
+}
+
+.cell.is-right-cell {
+    border-right: 1px solid gray;
+}
+
+.cell.is-bottom-cell {
+    border-bottom: 1px solid gray;
+}
+
+.inner-cell {
+    width: 70%;
+    height: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+
+.cell.main-cell {
+    background-color: #ffffff00;
+}
+
+.cell.main-cell:hover {
+    background-color: #ffc10720;
+}
+
+.cell.index-cell {
+    background-color: #6c757d20;
+}
+
+.cell.header-cell {
+    background-color: #6c757d20;
+}
+
+.cell.success-cell {
+    background-color: #28a74520;
+}
+
+.cell.failed-cell {
+    background-color: #dc354520;
+}
+

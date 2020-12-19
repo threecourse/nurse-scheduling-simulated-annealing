@@ -1,0 +1,7 @@
+.display-area {
+  width: 480px;
+  height: 480px;
+  /* border: 1px solid black; */
+  margin-bottom: 15px;
+  position: relative;
+}
