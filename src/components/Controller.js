@@ -17,6 +17,11 @@ class Controller extends Component {
           ナーススケジューリング問題を焼きなまし法により
           <br />
           解くプログラムです。
+          <br />
+          <a href="https://threecourse.hatenablog.com/entry/2020/12/19/192257">
+            ブログ
+          </a>
+          も参照下さい。
         </Row>
         <Row className="my-3" />
         <Row className="my-2 align-items-center">
